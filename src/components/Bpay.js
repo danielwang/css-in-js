@@ -7,7 +7,7 @@ const Bpay = ({billercode,refnumber}) => {
       <div className={styles.bpay}>
         <div className={styles.panel}>
           <div className={styles.icon}>
-              <img src={bpaylogo} width="50" />        
+              <img src={bpaylogo} width="50" alt="bpay" />        
           </div>
           <div className={styles.ref}>
             <div className={styles.data}>
