@@ -1,0 +1,37 @@
+$bpay-color: #183168;
+
+.bpay{
+    max-width: 300px;
+    width: 100%;
+    color: $bpay-color;
+
+    .panel{
+        display: flex;
+        margin-bottom: .25rem;
+
+        .icon{
+            margin-right: .25rem;
+        }
+        .ref {
+            border: 2px solid currentColor;
+            padding: 1rem;
+            flex-grow: 1;
+
+            text-align: left;
+        }
+    }
+    
+    .data{
+        span:first-child{
+            width: 50%;
+            display: inline-block;
+            color: #848ea1;
+            &+ span{
+                font-weight: bold;
+            }
+        }       
+    }
+    .text{
+        font-size: 0.75rem;
+    }
+}
