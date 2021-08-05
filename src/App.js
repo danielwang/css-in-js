@@ -3,11 +3,6 @@ import Payment from './components/Payment';
 import styled from 'styled-components';
 import './App.css';
 
-const Button = styled.button`
-    padding: 1rem;
-    background: red;
-`
-
 const Main = styled.main`
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;

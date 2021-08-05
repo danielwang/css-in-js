@@ -1,38 +1,54 @@
+:root {
+  --cad-color-ca: #181f35;
+  --cad-color-blue: #536ab1;
+  --cad-color-red: #d7373f;
+  --cad-color-orange: #da7b11;
+  --cad-color-green: #268e6c;
+  --cad-color-white: #fff;
+  --cad-color-gray: #576172;
+  --cad-color-gray-dark: #576172;
+  --cad-color-gray-100: #d2d6dd;
+  --cad-color-gray-200: #b8bec9;
+  --cad-color-gray-300: #9ea6b5;
+  --cad-color-gray-400: #848ea1;
+  --cad-color-gray-500: #6b778c;
+  --cad-color-gray-600: #576172;
+  --cad-color-gray-700: #434b58;
+  --cad-color-gray-800: #2f353e;
+  --cad-color-gray-900: #1b1f24;
+  --cad-spacer-0: 0;
+  --cad-spacer-1: .25rem;
+  --cad-spacer-2: .5rem;
+  --cad-spacer-3: 1rem;
+  --cad-spacer-4: 1.5rem;
+  --cad-spacer-5: 3rem;
+  --cad-fs-1: 1.5rem;
+  --cad-fs-2: 1.25rem;
+  --cad-fs-3: 1rem;
+  --cad-fs-lg: 1.25rem;
+  --cad-fs-sm: .875rem;
+  --cad-fs-xs: .75rem;
+  --cad-radius-none: 0;
+  --cad-radius-sm: .25rem;
+  --cad-radius-md: .5rem;
+  --cad-radius-lg: .75rem;
+  --cad-radius-round: 50rem;
+  --cad-opacity-100: 1;
+  --cad-opacity-75: .75;
+  --cad-opacity-50: .5;
+  --cad-opacity-25: .25;
+  --cad-opacity-0: 0;
+  --cad-font-sans-serif: "Roboto", sans-serif;
+  --cad-font-heading: "Roboto Condensed";
+  --cad-font-monospace: "Roboto Mono", monospace;
+  --cad-gradient: linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0));
+  --cad-shadow-sm: 0 3px 14px 0px #cccccc;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&family=Roboto+Mono&display=swap');
+
 .App {
   padding: 2rem 5rem;
+  font-family: var(--cad-font-sans-serif);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
