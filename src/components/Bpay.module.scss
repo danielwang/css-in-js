@@ -7,17 +7,17 @@ $bpay-color: #183168;
 
     .panel{
         display: flex;
-        margin-bottom: .25rem;
+        margin-bottom: var(--cad-spacer-1);
 
         .icon{
-            margin-right: .25rem;
+            margin-right: var(--cad-spacer-1) / 2;
         }
         .ref {
             border: 2px solid currentColor;
-            padding: 1rem;
+            padding: var(--cad-spacer-3);
             flex-grow: 1;
-
-            text-align: left;
+            margin-top: 2px;
+            height: 69px;
         }
     }
     
@@ -25,7 +25,6 @@ $bpay-color: #183168;
         span:first-child{
             width: 50%;
             display: inline-block;
-            color: #848ea1;
             &+ span{
                 font-weight: bold;
             }
